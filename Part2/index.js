@@ -3,6 +3,7 @@ const idInput = document.getElementById("idInput");
 const colorInput = document.getElementById("colorInput");
 
 function setCard(){
+
    let card = idInput.value ;
    let cardColor = colorInput.value;
    let diamonds = document.getElementById('diamonds').childNodes;
